@@ -1,10 +1,23 @@
 import numpy as np
 from simple import Simple_self
+import librosa
 
 # This is just for convenience
 
-def 
-
+def extractChroma(filepath, option = "cens"):
+    y, sr = librosa.load(filepath)
+    if option == "cens":
+        chroma_cens = librosa.feature.chroma_cens(y=y, sr=sr)
+        return chroma_cens
+    elif option == "cq":
+        chroma_cq = librosa.feature.chroma_cqt(y=y, sr=sr)
+        return chroma_cq
+    elif option == "stft":
+        chroma_stft = librosa.feature.chroma_stft(y=y, sr=sr)
+        return chroma_stft
+    else:
+        raise NameError('None-available option')
+    
 def summarize(data, subseqlen, nSubseqs):
     epsln = 1e-5
     subsequences = [0]*nSubseqs
