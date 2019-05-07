@@ -1,0 +1,1 @@
+This repository is a crude, nonofficial python version of [SuCo source code](https://sites.google.com/view/sucomusic)
