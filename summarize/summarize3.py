@@ -13,8 +13,8 @@ def extractChroma(filepath, option = "cens"):
     y = y[:,0]
     data = (y-np.mean(y))/np.amax(y)
     
-    # trim the data to 1min ~ 2min
-    data = data[60*sr:120*sr]
+    # trim the data to 0min ~ 1.5min
+    data = data[:90*sr]
     if option == "cens":
         chroma_cens = librosa.feature.chroma_cens(y=data, sr=sr)
         return chroma_cens
