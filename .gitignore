@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Created by https://www.gitignore.io/api/macos,python
 # Edit at https://www.gitignore.io/?templates=macos,python
@@ -32,8 +31,6 @@ Temporary Items
 .apdisk
 
 ### Python ###
-=======
->>>>>>> 54e344fc05ed10286f6f38f29903b530f9e629f3
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -56,11 +53,8 @@ parts/
 sdist/
 var/
 wheels/
-<<<<<<< HEAD
 pip-wheel-metadata/
 share/python-wheels/
-=======
->>>>>>> 54e344fc05ed10286f6f38f29903b530f9e629f3
 *.egg-info/
 .installed.cfg
 *.egg
@@ -79,10 +73,7 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-<<<<<<< HEAD
 .nox/
-=======
->>>>>>> 54e344fc05ed10286f6f38f29903b530f9e629f3
 .coverage
 .coverage.*
 .cache
@@ -117,7 +108,6 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-<<<<<<< HEAD
 # IPython
 profile_default/
 ipython_config.py
@@ -132,11 +122,6 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-=======
-# pyenv
-.python-version
-
->>>>>>> 54e344fc05ed10286f6f38f29903b530f9e629f3
 # celery beat schedule file
 celerybeat-schedule
 
@@ -164,7 +149,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-<<<<<<< HEAD
 .dmypy.json
 dmypy.json
 
@@ -172,5 +156,3 @@ dmypy.json
 .pyre/
 
 # End of https://www.gitignore.io/api/macos,python
-=======
->>>>>>> 54e344fc05ed10286f6f38f29903b530f9e629f3
